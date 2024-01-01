@@ -1,6 +1,6 @@
 # Performance
 
-After we install service for new customers – they often tell us that Netflix, web browsing, and gaming “just feel faster” using YOUR_ISP. This is thanks to some smart software we helped develop based on decades of research.
+After we install service for new customers – they often tell us that Netflix, web browsing, and gaming “just feel faster” using YOUR_ISP. This is thanks to some [smart software](https://libreqos.io/) we use based on decades of research.
 
 Most Internet Service Providers focus solely on bandwidth (Megabits-per-second, or Mbps), because it is the simplest metric to advertise. But in addition to offering high bandwidth, YOUR_ISP also delivers connectivity with low latency, high responsiveness, and Whole-Home WiFi for thorough coverage. Achieving optimal performance in these multiple areas is the key to an internet connection that feels fast, stable, and responsive.
 
@@ -25,32 +25,34 @@ Bandwidth does not impact internet performance as much as advertising would lead
 
 The world’s largest Content Distribution Network, Cloudflare, has confirmed observing this pattern in the data flowing across their worldwide network.
 
-Source: Cloudflare: Making home Internet faster has little to do with “speed”:
+![image](https://i0.wp.com/jackrabbitwireless.com/wp-content/uploads/2023/04/Screen-Shot-2022-11-07-at-2.29.30-PM.png?w=1090&ssl=1)
 
-Internet researchers with the Broadband Internet Technical Advisory Group have also come to this same conclusion in their research paper, Latency Explained.
+Source: [Cloudflare: Making home Internet faster has little to do with “speed”:](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4178804)
+
+Internet researchers with the Broadband Internet Technical Advisory Group have also come to this same conclusion in their research paper, [Latency Explained](https://www.bitag.org/latency-explained.php).
 
     Web page load time is largely determined not by throughput, but by two other factors: how long a network round-trip takes, and how many network round-trips are required.
     Broadband Internet Technical Advisory Group - Latency Explained
 
-The average household uses just 5 Mbps of bandwidth during peak usage hours, and only 2.5% of residential internet users use more than 32 Mbps during peak hours. While Internet Service Providers advertise plans in terms of bandwidth, they completely neglect latency – which determines our actual experience of the internet day-to-day.
+The average household uses [just 5 Mbps of bandwidth during peak usage hours](https://www.youtube.com/watch?time_continue=5817&v=tAVwmUG21OY&embeds_euri=https%3A%2F%2Fjackrabbitwireless.com%2F&embeds_origin=https%3A%2F%2Fjackrabbitwireless.com&source_ve_path=MjM4NTE&feature=emb_title), and only 2.5% of residential internet users use more than 32 Mbps during peak hours. While Internet Service Providers advertise plans in terms of bandwidth, they completely neglect latency – which determines our actual experience of the internet day-to-day.
 
     The less delay that a network or application has, the more “responsive” a service will feel to an end user. The more delay (or lag), the worse it will feel.
 
     Critically, however, reducing delay meaningfully improves all existing user applications.
     Broadband Internet Technical Advisory Group - Latency Explained
 
-This effect is seen most clearly with online gaming, which uses less than 1 Mbps in each direction, but demands very stable, low latency. Recent consumer research confirms that latency is more important than bandwidth for online gaming.
+This effect is seen most clearly with online gaming, which uses less than 1 Mbps in each direction, but demands very stable, low latency. Recent consumer research confirms that [latency is more important than bandwidth for online gaming](https://www.gamebench.net/network-performance-and-gamer-experience-the-us-edition/).
 
     Overall, the consistently reinforced takeaway is that latency has now clearly overtaken broadband speed as the focus area for network providers seeking to provide – and guarantee and commercially benefit from – optimum experience in both online multiplayer and cloud gaming.
     GameBench - Network Performance and Gamer Experience
 
 ## Latency Under Load / Bufferbloat
 
-Many of us take it for granted that it is “normal” for a video conference call to stutter or disconnect when someone else on the same home network is watching a 4K video. That is actually a symptom of Bufferbloat – the undesirable latency that results from network equipment buffering too much data. Connections with high Bufferbloat have lower perceived responsiveness. Cable and DSL internet services suffer from significant Bufferbloat, which can make these connections feel slow even when speed tests show normal bandwidth (Mbps).
+Many of us take it for granted that it is “normal” for a video conference call to stutter or disconnect when someone else on the same home network is watching a 4K video. That is [actually a symptom](https://www.ietf.org/archive/id/draft-cpaasch-ippm-responsiveness-00.html) of Bufferbloat – the undesirable latency that results from network equipment buffering too much data. Connections with high Bufferbloat have lower perceived responsiveness. Cable and DSL internet services suffer from significant Bufferbloat, which can make these connections feel slow even when speed tests show normal bandwidth (Mbps).
 
-YOUR_ISP has developed a Quality of Experience solution called LibreQoS. This software keeps our customers’ latency and bufferbloat as low as possible, providing a more streamlined internet experience. With LibreQoS, your WiFi calls, zoom calls, and online games are given fair priority, even when large file downloads or other so-called “bulk” tasks are occurring in the background. This allows YOUR_ISP to provide a more responsive and “snappy” experience using the internet, compared to alternatives like Cable Internet, 5G, or Fiber.
+YOUR_ISP uses a Quality of Experience solution called [LibreQoS](https://libreqos.io/). This software keeps our customers’ latency and bufferbloat as low as possible, providing a more streamlined internet experience. With LibreQoS, your WiFi calls, zoom calls, and online games are given fair priority, even when large file downloads or other so-called “bulk” tasks are occurring in the background. This allows YOUR_ISP to provide a more responsive and “snappy” experience using the internet, compared to alternatives like Cable Internet, 5G, or Fiber.
 
-In recent years, internet researchers have come to find that reducing Bufferbloat is crucial for improving internet performance.
+In recent years, [internet researchers](https://www.bitag.org/latency-explained.php) have come to find that reducing Bufferbloat is crucial for improving internet performance.
 
     Queue management techniques such as Active Queue Management are available that will reduce bufferbloat in network bottleneck equipment by triggering applications to reduce the amount of queuing delay that they cause. This is not theoretical; AQM has been proven to work at scale in DOCSIS and other networks.
 
@@ -58,4 +60,4 @@ In recent years, internet researchers have come to find that reducing Bufferbloa
     Broadband Internet Technical Advisory Group - Latency Explained
 
 Find out if you experience Bufferbloat on your home internet connection using the Waveform Bufferbloat Test.
-Waveform Bufferbloat Test
+[Waveform Bufferbloat Test](https://www.waveform.com/tools/bufferbloat)
